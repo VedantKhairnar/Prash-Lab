@@ -1,10 +1,7 @@
 from flask import Flask, render_template, redirect, request
 
 
-app = Flask(__name__,static_url_path="static/image/css/style.css",static_folder= "static/image/css/style.css")
-
-
-
+app = Flask(__name__)
 
 
 
@@ -15,7 +12,7 @@ def HomePage():
 
 @app.route('/Research')
 def Research():
-	return render template('Research.html')
+	return render_template('Research.html')
 
 @app.route('/labmembers')
 def Labmembers():
@@ -30,4 +27,5 @@ def contect():
 	return render_template('contect.html')
 
 if __name__ == '__main__':
-	app.debub = True
+	# app.debug = True
+	app.run()
