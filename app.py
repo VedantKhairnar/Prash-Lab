@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, request
 
 
-app = Flask(__name__,static_url_path="/templates/static/css/style.css",static_folder= "templates/static/css/style.css")
+app = Flask(__name__,static_url_path="static/image/css/style.css",static_folder= "static/image/css/style.css")
 
 
 
