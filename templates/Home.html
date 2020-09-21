@@ -61,9 +61,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="./static/styles/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./static/styles/style.css" type="text/css">
+    <link rel="stylesheet" href="./static/styles/main.css" type="text/css">
     <style >
 		.icons{position:fixed;
 			display:flex;
@@ -151,15 +151,15 @@ footer {
   
  <div class="carousel-inner">
     <div class="carousel-item active">
-      <center><img src="image/image.png" class="d-inline w-200" alt="..." width = "500px" height= "690px" style="width:102%; "></center>
+      <center><img src="./static/image/image.png" class="d-inline w-200" alt="..." width = "500px" height= "690px" style="width:102%; "></center>
       
     </div>
     <div class="carousel-item">
-      <center><img src="image/img1.jpg" class="d-inline w-200" alt="..." width = "500px" height = "690px" style="width:102%;"></center>
+      <center><img src="\static\image\img1.jpg" class="d-inline w-200" alt="..." width = "500px" height = "690px" style="width:102%;"></center>
       
     </div>
     <div class="carousel-item">
-      <center><img src="image/bg-banner.jpg" class="d-inline w-200" alt="..." width = "500px" height = "690px" style="width:102%;" ></center>
+      <center><img src="./static/image/bg-banner.jpg" class="d-inline w-200" alt="..." width = "500px" height = "690px" style="width:102%;" ></center>
      </div>
      
   <!---Left and right controls --->
@@ -371,11 +371,11 @@ footer {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id="typef_orm_share",b="https://embed.typeform.com/";if(!gi.call(d,id)){js=ce.call(d,"script");js.id=id;js.src=b+"embed.js";q=gt.call(d,"script")[0];q.parentNode.insertBefore(js,q)}})()</script>
-<script src="js/index.js"></script>
-<script src="js/services.js"></script>
+<script src="./static/js/index.js"></script>
+<script src="./static/js/services.js"></script>
 <script>$(document).ready(function(){$("#basicExampleNav .nav-link:contains(Home)").addClass("active");});</script>
-<script src="js/main.js"></script>
-<script src="js/testimonials.js"></script>
+<script src="./static/js/main.js"></script>
+<script src="./static/js/testimonials.js"></script>
 
 <script>window.customerlySettings={app_id:"0d82742d"};!function(){function e(){var e=t.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://widget.customerly.io/widget/0d82742d";var r=t.getElementsByTagName("script")[0];r.parentNode.insertBefore(e,r)}var r=window,t=document,n=function(){n.c(arguments)};r.customerly_queue=[],n.c=function(e){r.customerly_queue.push(e)},r.customerly=n,r.attachEvent?r.attachEvent("onload",e):r.addEventListener("load",e,!1)}();</script>
 <script type="text/javascript">(function(f,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,c=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};c&&d(c,"state")&&(j=JSON.parse(decodeURIComponent(d(c,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",c),history.replaceState(j.desiredHash||"",f.title,k.pathname+k.search)))}catch(n){}var l,h;window.freshpaint=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="freshpaint";e.people=e.people||[];e.toString=function(b){var a="freshpaint";"freshpaint"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove people group page alias ready".split(" ");for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a.i.push([b,d,g])};a._SV=1.4;b=f.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof FRESHPAINT_CUSTOM_LIB_URL?FRESHPAINT_CUSTOM_LIB_URL:"//perfalytics.com/static/js/freshpaint.js";d=f.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.freshpaint||[]);freshpaint.init("e55dd5cb-d406-4d31-a28f-9ddb5853b035");freshpaint.page();</script></body>
