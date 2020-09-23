@@ -14,11 +14,11 @@ def HomePage():
 def Research():
 	return render_template('Research.html')
 
-@app.route('/labmembers')
+@app.route('/Labmembers')
 def Labmembers():
 	return render_template('labmembers.html')
 	
-@app.route('/Publicatin')
+@app.route('/Publication')
 def Publication():
 	return render_template('Publication.html')
 	
