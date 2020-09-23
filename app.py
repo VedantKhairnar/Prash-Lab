@@ -5,6 +5,10 @@ app = Flask(__name__)
 
 
 
+@app.route('/')
+def redirection():
+    return redirect('/Home')
+
 @app.route('/Home')
 def HomePage():
     return render_template('Home.html')
@@ -27,5 +31,5 @@ def contect():
 	return render_template('contect.html')
 
 if __name__ == '__main__':
-	# app.debug = True
+	app.debug = True
 	app.run()
